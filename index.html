@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#home">Josh Wright</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Josh Wright</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="assets/profile_pic.jpg" alt="Josh's Profile Picture" class="profile-image">
+                </div>
+                <div class="about-text">
+                    <h3>Hi, I'm Josh!</h3>
+                    <p class="about-intro">
+                        I'm a sophomore at CU Boulder pursuing a BS in Computer Science. 
+                        My favorite thing about computer science is the ability to creatively solve problems --
+                        I've always enjoyed coming up with efficient and concise ways to approach the coding challenges I face.
+                    </p>
+                    <div class="skills-section">
+                        <h4>My Skills</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>Full-Stack Web Development</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++, Java, Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>x86 Assembly, GDB Debugging</span>
+                            </div>
+                            <!-- Add more skills as needed -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-gallery">
+                <h4>My Life</h4>
+                <p class="about-intro">
+                    Outside of computer science, I like to participate in a variety of hobbies.
+                    The activities I'm currently enjoying most are rock climbing, snowboarding, and playing guitar.
+                </p>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="assets/climb.jpg" alt="Gallery Image 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/climb2.jpg" alt="Gallery Image 2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/soccer.jpg" alt="Gallery Image 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project cards will be added here -->
+            <div class="project-card">
+                <h3>Project 1 - SongSeeker</h3>
+                <p>SongSeeker - search songs, artists, and seemusic recommended for you!
+                    Implements the Spotify and last.fm APIs. Developed by myself and 5 others.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/LachlanMurphy/SpotifyWrap-Team014-2" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Project 2 - Candyland</h3>
+                <p>C++ object-based implementation of the Candyland board game, for 2 players!</p>
+                <div class="project-links">
+                    <a href="https://github.com/joshwright04/Candyland/tree/main" class="github-link"><i class="fab fa-github"></i> View on GitHub</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/joshwright04"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/joshua-wright-05b98228b/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2024 Josh. All rights Baka.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
