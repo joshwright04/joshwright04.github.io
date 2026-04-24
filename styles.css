@@ -60,10 +60,18 @@ nav {
 
 /* Hero Section */
 .hero {
+    position: relative;
+    min-height: 100vh;   /* IMPORTANT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     background:
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
         url("assets/background.jpg") no-repeat center center;
+
     background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
